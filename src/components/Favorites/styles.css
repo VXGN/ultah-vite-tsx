@@ -1,0 +1,17 @@
+.favorite-card {
+  height: 400px;
+  transform-style: preserve-3d;
+  perspective: 1000px;
+}
+
+.favorite-card:hover .icon-wrapper {
+  transform: translateY(-10px);
+}
+
+.icon-wrapper {
+  transition: transform 0.3s ease-out;
+}
+
+.icon-wrapper svg {
+  filter: drop-shadow(0 0 8px rgba(255, 255, 255, 0.3));
+}
