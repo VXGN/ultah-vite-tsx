@@ -9,8 +9,6 @@ import { ShareButtons } from './components/ShareButtons';
 import { FloatingBalloons } from './components/Animations';
 import { SplashScreen } from './components/SplashScreen';
 import { Favorites } from './components/Favorites';
-import Section4 from './components/gsap/gsap';
-import Test from './components/gsap/gsap';
 
 export const App = () => {
   const [showContent, setShowContent] = useState(false);

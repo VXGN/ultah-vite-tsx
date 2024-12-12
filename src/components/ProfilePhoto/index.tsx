@@ -1,5 +1,5 @@
 import { Camera } from 'lucide-react';
-import Image from "../../assets/images/profile/pp-min.jpg";
+import Image from "../../pp-min.jpg";
 
 
 const pp = Image;
