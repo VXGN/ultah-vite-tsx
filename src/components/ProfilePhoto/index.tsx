@@ -1,14 +1,13 @@
 import { Camera } from 'lucide-react';
+import Image from '../../assets/images/profile/pp-min.jpg';
 
-
-const pp = 'src/assets/images/profile/pp-min.JPG';
 export const ProfilePhoto = () => {
   return (
     <div className="relative mx-auto w-48 h-48 md:w-56 md:h-56">
       <div className="absolute inset-0 bg-gradient-to-br from-pink-200 to-blue-200 rounded-full animate-pulse"></div>
       <div className="relative w-full h-full overflow-hidden rounded-full border-4 border-white shadow-lg transform hover:scale-105 transition-transform duration-300">
         <img
-          src = {pp}
+          src = {Image}
           alt="Syaddad Khairi"
           className="w-full h-full object-cover"
         />

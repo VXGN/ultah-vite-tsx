@@ -1,4 +1,5 @@
 import { Calendar, Clock, MapPin, Shirt } from 'lucide-react';
+import Image from '../assets/images/map/staticmap.png';
 
 export const EventInfo = () => {
   return (
@@ -27,7 +28,7 @@ export const EventInfo = () => {
             <p className="font-semibold">Lokasi</p>
             <p>Ampenan (rumah Syaddad)</p>
             {/* Google Map */}
-           <img src='src/assets/images/map/staticmap.png'></img>
+           <img src={Image}></img>
           </div>
         </div>
         <div className="flex items-center gap-4">
