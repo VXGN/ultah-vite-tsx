@@ -27,7 +27,7 @@ export const EventInfo = () => {
             <p className="font-semibold">Lokasi</p>
             <p>Ampenan (rumah Syaddad)</p>
             {/* Google Map */}
-           <img src='src/assets/images/map/staticmap.png'></img>
+           <img src='../assets/images/map/staticmap.png'></img>
           </div>
         </div>
         <div className="flex items-center gap-4">
