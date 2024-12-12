@@ -31,7 +31,7 @@ export const SplashScreen = () => {
   useEffect(() => {
     const timer = setTimeout(() => {
       setIsVisible(false);
-    }, 3000);
+    }, 0);
 
     return () => clearTimeout(timer);
   }, []);
