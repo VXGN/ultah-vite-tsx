@@ -1,5 +1,5 @@
 import { Calendar, Clock, MapPin, Shirt } from 'lucide-react';
-import Image from '../assets/images/map/staticmap.png';
+import Image from '../assets/images/teams/staticmap.png';
 
 export const EventInfo = () => {
   return (

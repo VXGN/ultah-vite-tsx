@@ -1,5 +1,5 @@
 import { Camera } from 'lucide-react';
-import Image from '../../assets/images/profile/pp-min.jpg';
+import Image from '../../assets/images/teams/pp-min.jpg';
 
 export const ProfilePhoto = () => {
   return (
