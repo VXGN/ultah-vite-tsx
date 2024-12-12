@@ -9,6 +9,8 @@ import { ShareButtons } from './components/ShareButtons';
 import { FloatingBalloons } from './components/Animations';
 import { SplashScreen } from './components/SplashScreen';
 import { Favorites } from './components/Favorites';
+import Section4 from './components/gsap/gsap';
+import Test from './components/gsap/gsap';
 
 export const App = () => {
   const [showContent, setShowContent] = useState(false);
@@ -37,7 +39,7 @@ export const App = () => {
             <ProfilePhoto />
             
             <Countdown />
-            
+
             <Favorites />
             
             <div className="grid md:grid-cols-2 gap-8">
@@ -54,7 +56,7 @@ export const App = () => {
             
             <div className="space-y-6">
               <h3 className="text-2xl font-bold text-gray-800 text-center">
-                Bagikan Undangan
+                Bagikan Undangan  
               </h3>
               <ShareButtons />
             </div>

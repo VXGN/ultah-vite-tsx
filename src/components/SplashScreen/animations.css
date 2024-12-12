@@ -82,8 +82,6 @@
 }
 
 .splash-icon {
-display: flex;
-  justify-content: center;
   animation: scaleUp 1.5s cubic-bezier(0.4, 0, 0.2, 1);
 }
 

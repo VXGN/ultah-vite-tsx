@@ -7,7 +7,7 @@ export const Favorites = () => {
     {
       title: 'Nobar Lemans 24hr',
       icon: <Car className="w-8 h-8" />,
-      image: 'src/assets/images/hobby/car1.png'
+      image: 'https://i.pinimg.com/736x/27/e5/7f/27e57fb745203c76186486dd24941613.jpg'
     },
     {
       title: 'Gibah F1',
@@ -17,7 +17,7 @@ export const Favorites = () => {
     {
       title: 'Ditabrak Flat 6 turbo',
       icon: <Trophy className="w-8 h-8" />,
-      image: 'src/assets/images/hobby/car3.png'
+      image: 'https://i.pinimg.com/736x/3d/cb/6a/3dcb6a398650b416ca669de15d84e601.jpg'
     }
   ];
 

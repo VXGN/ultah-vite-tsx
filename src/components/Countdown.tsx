@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 
 const calculateTimeLeft = () => {
   const difference = +new Date('2025-01-15') - +new Date();

@@ -1,4 +1,3 @@
-import React from 'react';
 import { Cake, Sparkles } from 'lucide-react';
 
 export const Header = () => {

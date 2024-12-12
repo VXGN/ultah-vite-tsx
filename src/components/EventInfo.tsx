@@ -26,6 +26,18 @@ export const EventInfo = () => {
           <div>
             <p className="font-semibold">Lokasi</p>
             <p>Ampenan (rumah Syaddad)</p>
+            {/* Google Map */}
+            <iframe
+              title="Lokasi"
+              width="150"
+              height="150"
+              frameBorder="0"
+              style={{ border: 0 }}
+              
+              src={`https://maps.googleapis.com/maps/api/staticmap?center=Ampenan&zoom=14&size=300x300&markers=-8.563155,%20116.076963&key=AIzaSyAaZRyEwPPHTVECeBKUuQH8DhnUpOvA9Ic`}
+              
+              allowFullScreen
+            ></iframe>
           </div>
         </div>
         <div className="flex items-center gap-4">
