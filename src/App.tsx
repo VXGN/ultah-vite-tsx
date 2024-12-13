@@ -9,6 +9,7 @@ import { ShareButtons } from './components/ShareButtons';
 import { FloatingBalloons } from './components/Animations';
 import { SplashScreen } from './components/SplashScreen';
 import { Favorites } from './components/Favorites';
+import GiftSection from './components/GiftSection';
 
 export const App = () => {
   const [showContent, setShowContent] = useState(false);
@@ -44,13 +45,8 @@ export const App = () => {
               <EventInfo />
               <RSVPForm />
             </div>
-            
-            <div className="space-y-6">
-              <h3 className="text-2xl font-bold text-gray-800 text-center">
-                Our Teams 🔥!!
-              </h3>
-              <Gallery />
-            </div>
+
+            <GiftSection/>
             
             <div className="space-y-6">
               <h3 className="text-2xl font-bold text-gray-800 text-center">

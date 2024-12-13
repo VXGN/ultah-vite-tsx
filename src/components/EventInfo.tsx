@@ -3,7 +3,7 @@ import Image from '../staticmap.png';
 
 export const EventInfo = () => {
   return (
-    <div className="bg-white/90 rounded-lg shadow-lg p-8">
+    <div className="bg-white/90 rounded-lg shadow-lg p-8　bg-white/90 rounded-lg shadow-lg p-8">
       <h3 className="text-2xl font-bold text-gray-800 mb-6 text-center">
         Detail Acara
       </h3>
